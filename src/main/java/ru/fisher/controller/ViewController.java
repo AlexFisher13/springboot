@@ -1,11 +1,11 @@
-package ru.smartcoder.spring_boot_simple_example;
+package ru.fisher.controller;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 @Configuration
-public class MvcConfig extends WebMvcConfigurerAdapter {
+public class ViewController extends WebMvcConfigurerAdapter {
     
     @Override
     public void addViewControllers(ViewControllerRegistry registry) { // ViewControllerRegistry - удобная функциональность из библиотеки Spring,
