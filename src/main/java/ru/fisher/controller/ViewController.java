@@ -10,9 +10,9 @@ public class ViewController extends WebMvcConfigurerAdapter {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) { // ViewControllerRegistry - удобная функциональность из библиотеки Spring,
         // которая позволяет нам не создавать отдельные классы контроллеров для того, чтобы наши Thymeleaf странички показались пользователю.
-        registry.addViewController("/base").setViewName("base");
-        registry.addViewController("/").setViewName("base");
-        registry.addViewController("/hello").setViewName("hello");
+        registry.addViewController("/welcome").setViewName("welcome");
+        registry.addViewController("/").setViewName("welcome");
+        registry.addViewController("/users").setViewName("users");
     }
 
 }
