@@ -1,5 +1,7 @@
 package ru.fisher.model;
 
+import javax.persistence.Entity;
+
 
 public class User {
 
